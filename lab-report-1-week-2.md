@@ -13,7 +13,7 @@
 * If you are on windows you must download OpenSSH using this [link](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse)
 * After this you must look up your course specific account using this [link2](https://sdacs.ucsd.edu/~icc/index.php)
     * This step required you to change your myTriton password before the lab
-* **Next you will type the following command: "ssh cs15lsp22zz@ieng6.ucsd.edu"**
+* **Next you will type the following command:** ```ssh cs15lsp22zz@ieng6.ucsd.edu```
 * Once you do this your screen should look like this
 ![Image](remotelyConnecting.png)
 ---
@@ -21,6 +21,9 @@
 * This part of the lab is designed to get you comfortable using different commands that deal with ssh and the terminal
 * Below are some examples of these commands
 ![Image](commands.png)
+
+
+
 ---
 ## Step 4: Moving Files with scp
 * One key step we'll be using this year is copying files back and forth between the computers
@@ -38,6 +41,8 @@
     * make a local edit
     * copying it to the remote server
     * finally running it
-* Some commands to help you get inspiration may be as shown below
+* Some commands to help you get inspiration may be as shown below: 
+* ```$ ssh cse15lsp22zz@ieng6.ucsd.edu "ls" ```
+* ``` $ cp whereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI ```
 ![Image](step6lab.png)
 
