@@ -42,7 +42,20 @@
 ## Step 5: Setting an SSH Key
 * This process allows us to skip the step of entering a passcode when logging into SSH every time
 * Below is what you should enter into terminal to complete this step
-![Image](SSHkey.png)
+
+```
+# on client (your computer)
+
+$ ssh-keygen
+
+Generating public/private rsa key pair.
+
+Enter file in which to save the jey
+(Users/<user-name>/.ssh/id_rsa): Users/<user-name>/.ssh/id_rsa
+
+Enter passphrase (empty for no passphrase): 
+
+```
 ---
 ## Step 6: Optimizing Remote Running (Final Step)
 * Using what we learned in the last steps, we can now come up with a more efficent route to
