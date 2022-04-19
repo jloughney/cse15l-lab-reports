@@ -20,7 +20,15 @@
 ## Step 3: Trying Some Commands
 * This part of the lab is designed to get you comfortable using different commands that deal with ssh and the terminal
 * Below are some examples of these commands
-![Image](commands.png)
+
+
+```
+% cd ~
+% cd
+% ls -lat
+% ls -a
+% ls <directory> (which should be: /home/linux/ieng6/cs15lsp22abc)
+```
 
 
 
@@ -44,5 +52,4 @@
 * Some commands to help you get inspiration may be as shown below: 
 * ```$ ssh cse15lsp22zz@ieng6.ucsd.edu "ls" ```
 * ``` $ cp whereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI ```
-![Image](step6lab.png)
 
