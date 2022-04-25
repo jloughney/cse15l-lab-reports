@@ -5,7 +5,7 @@
 ---
 ## Code change #1: 
 
-![test1](test1.png)
+![test1](test3.png)
 * click the 
 [failed file](https://jloughney.github.io/markdown-parser/linkTests.md)
 to see the test cases that cause a wrong output because the link is missing a bracket on the end
@@ -16,7 +16,7 @@ to see the test cases that cause a wrong output because the link is missing a br
 
 ## Code change #2: 
 
-![test2](test3.png)
+![test2](test2.png)
 * click the 
 [failed file](https://jloughney.github.io/markdown-parser/linkTests.md)
 to see the test cases that cause a wrong output because the second link does not include a ( . ) therefore is not a valid link
