@@ -12,7 +12,7 @@ to see the test cases that cause a wrong output because the link is missing a br
 * below is the error message the fail case gave for the first link in the file
 ![error1](error1.png)
 
-* This bug occurs because without the presence of a close bracket or close parenthesis, the .add method will not run properly. This is because the variable will not be defined, and cannot be used a bound in the add statement.
+* This bug occurs because without the presence of a close bracket or close parenthesis, the .add method will not run properly. This is because the variable will not be defined, and cannot be used a bound in the add statement. In the improved code change, it checks to make sure there is in fact a bracket at the last index possible, and if there is not then it breaks the while loop.
 
 ## Code change #2: 
 
@@ -34,6 +34,6 @@ to see the test cases that cause a wrong output because the third link shown in 
 * below is the similar output to the last error where we shouldn't see that the image notation in the file is being printed and instead should only output the correctly formatted links
 * (dog.png should not part of the correct output)
 ![error3](error2-3.png)
-* this bug/wrong output occurs because the prior implementation does not check for the occurance of a ( ! ) to indicate an image as opposed to a link. In the new code change however, it 
+* This bug/wrong output occurs because the prior implementation does not check for the occurance of a ( ! ) symbol to indicate an image as opposed to a link. In the new code change however, it checks if the index right before the first bracket contains the ( ! ), and if it does then it does not add to the arraylist of links.
 
 
